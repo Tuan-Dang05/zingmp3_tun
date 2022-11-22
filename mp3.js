@@ -50,7 +50,7 @@ const app = {
     {
       name: "Kẻ Theo Đuổi Ánh Sáng",
       singer: "Htrol ft Phạm Thành Remix",
-      path: "./music/Người_Theo_Đuổi_Ánh_Sáng .mp3",
+      path: "./music/Nguoi_Theo_duoi_anh_sang .mp3",
       image:"./pic/ketheoduoianhsang.png",
     },
     {
