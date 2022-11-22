@@ -47,18 +47,18 @@ const app = {
       path:"./music/River_Flow_In_You .mp3",
       image: "./pic/river.png",
     },
-    {
-      name: "Kẻ Theo Đuổi Ánh Sáng",
-      singer: "Htrol ft Phạm Thành Remix",
-      path: "./music/Nguoi_Theo_duoi_anh_sang .mp3",
-      image:"./pic/ketheoduoianhsang.png",
-    },
-    {
+     {
       name: "♫TOP Nhạc EDM Tik Tok Trung Quốc Remix Gây Nghiện♫",
       singer: "none",
       path: "./music/EDM.mp3",
       image:
         "./pic/EDMtrung.png"
+    },
+    {
+      name: "Kẻ Theo Đuổi Ánh Sáng",
+      singer: "Htrol ft Phạm Thành Remix",
+      path: "./music/Nguoi_Theo_duoi_anh_sang .mp3",
+      image:"./pic/ketheoduoianhsang.png",
     },
     {
       name: "Một Bước Yêu Vạn Dặm Đau",
