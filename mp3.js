@@ -77,13 +77,13 @@ const app = {
       singer: "Tàn Tuyết",
       path:"./music/bo_thap.mp3",
       image:"./pic/bothapnhapma.png",
-    }
-{
+    },
+     {
       name:"Nơi Này Có Anh (remix)",
       singer: "Sơn Tùng MTP",
       path:"./music/noi_nay_co_anh.mp3",
       image:"./pic/noi_nay_co_anh.jpg",
-    }
+    },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
