@@ -78,6 +78,12 @@ const app = {
       path:"./music/noi_nay_co_anh.mp3",
       image:"./pic/noi_nay_co_anh.jpg",
     },
+       {
+      name:"Bánh Mỳ Không",
+      singer: "Du Uyên x Đạt G",
+      path:"./music/banh_my_khong.mp3",
+      image:"./pic/banhmykhong.png",
+    },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
