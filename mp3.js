@@ -29,7 +29,7 @@ const app = {
   // (1/2) Uncomment the line below to use localStorage
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
-        {
+    {
       name: "Chỉ Muốn Bên Em Thật Gần",
       singer: "YLing",
       path: "./music/chi_muon_ben_em_that_gan.mp3",
