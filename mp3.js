@@ -32,8 +32,8 @@ const app = {
         {
       name: "Chỉ Muốn Bên Em Thật Gần",
       singer: "YLing",
-      path: "music/chi_muon_ben_em_that_gan.mp3",
-      image: "pic/benemthatgan.png"
+      path: "./music/chi_muon_ben_em_that_gan.mp3",
+      image: "./pic/benemthatgan.png"
     },
     {
       name: "Lucky Twice",
