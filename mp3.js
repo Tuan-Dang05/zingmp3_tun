@@ -5,7 +5,6 @@ const durationTime = document.querySelector(".duration")
 const remainingTime = document.querySelector(".remaining");
 
 
-const PlAYER_STORAGE_KEY = "F8_PLAYER";
 
 const player = $(".player");
 const cd = $(".cd");
@@ -26,8 +25,6 @@ const app = {
   isRandom: false,
   isRepeat: false,
   config: {},
-  // (1/2) Uncomment the line below to use localStorage
-  // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
       name: "Lucky Twice",
@@ -87,9 +84,7 @@ const app = {
   render: function () {
     const htmls = this.songs.map((song, index) => {
       return `
-                        <div class="song ${
-                          index === this.currentIndex ? "active" : ""
-                        }" data-index="${index}">
+                        <div class="song ${index === this.currentIndex ? "active" : ""}" data-index="${index}">
                             <div class="thumb"
                                 style="background-image: url('${song.image}')">
                             </div>
@@ -147,7 +142,6 @@ const app = {
     };
 
     // Khi song được play
-    // When the song is played
     audio.onplay = function () {
       _this.isPlaying = true;
       player.classList.add("playing");
@@ -155,7 +149,6 @@ const app = {
     };
 
     // Khi song bị pause
-    // When the song is pause
     audio.onpause = function () {
       _this.isPlaying = false;
       player.classList.remove("playing");
@@ -163,7 +156,6 @@ const app = {
     };
 
     // Khi tiến độ bài hát thay đổi
-    // When the song progress changes
     audio.ontimeupdate = function () {
       if (audio.duration) {
         const progressPercent = Math.floor(
@@ -174,14 +166,12 @@ const app = {
     };
 
     // Xử lý khi tua song
-    // Handling when seek
     progress.onchange = function (e) {
       const seekTime = (audio.duration / 100) * e.target.value;
       audio.currentTime = seekTime;
     };
 
     // Khi next song
-    // When next song
     nextBtn.onclick = function () {
       if (_this.isRandom) {
         _this.playRandomSong();
@@ -194,7 +184,6 @@ const app = {
     };
 
     // Khi prev song
-    // When prev song
     prevBtn.onclick = function () {
       if (_this.isRandom) {
         _this.playRandomSong();
@@ -207,7 +196,6 @@ const app = {
     };
 
     // Xử lý bật / tắt random song
-    // Handling on / off random song
     randomBtn.onclick = function (e) {
       _this.isRandom = !_this.isRandom;
       _this.setConfig("isRandom", _this.isRandom);
@@ -215,7 +203,6 @@ const app = {
     };
 
     // Xử lý lặp lại một song
-    // Single-parallel repeat processing
     repeatBtn.onclick = function (e) {
       _this.isRepeat = !_this.isRepeat;
       _this.setConfig("isRepeat", _this.isRepeat);
@@ -223,7 +210,6 @@ const app = {
     };
 
     // Xử lý next song khi audio ended
-    // Handle next song when audio ended
     audio.onended = function () {
       if (_this.isRepeat) {
         audio.play();

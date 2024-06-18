@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Lucky Twice",
+        "singer": "Vinz ft. Nam Milano - TheDragonsRemix",
+        "path": "music/Lucky_Twice.mp3",
+        "image": "pic/luckytwice.png"
+    },
+    {
+        "name": "Yêu Đừng Sợ Đau",
+        "singer": "Ngô Lan Hương - CuCak remix",
+        "path": "music/Yeu_dung_so_dau.mp3",
+        "image": "pic/yeudungsodau.png"
+    },
+    {
+        "name": "River Flow In You 8D",
+        "singer": "Alan Walker Style",
+        "path": "music/River_Flow_In_You.mp3",
+        "image": "pic/river.png"
+    },
+    {
+        "name": "Kẻ Theo Đuổi Ánh Sáng",
+        "singer": "Htrol ft Phạm Thành Remix",
+        "path": "music/Người_Theo_Đuổi_Ánh_Sáng.mp3",
+        "image": "pic/ketheoduoianhsang.png"
+    },
+    {
+        "name": "♫TOP Nhạc EDM Tik Tok Trung Quốc Remix Gây Nghiện♫",
+        "singer": "none",
+        "path": "music/EDM.mp3",
+        "image": "pic/EDMtrung.png"
+    },
+    {
+        "name": "Một Bước Yêu Vạn Dặm Đau",
+        "singer": "Mr siro",
+        "path": "music/mot_buoc_yeu_van_dam_dau.mp3",
+        "image": "pic/motbuocyeu.png"
+    },
+    {
+        "name": "Ai là người thương em",
+        "singer": "Thanh Hưng",
+        "path": "music/ai_la_nguoi_thuong_em.mp3",
+        "image": "pic/quanAP.png"
+    },
+    {
+        "name": "Bỏ Phật Nhập Ma",
+        "singer": "Tàn Tuyết",
+        "path": "music/bo_thap.mp3",
+        "image": "pic/bothapnhapma.png"
+    }
+]
