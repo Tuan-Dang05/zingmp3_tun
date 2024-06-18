@@ -27,6 +27,12 @@ const app = {
   config: {},
   songs: [
     {
+      name: "Chỉ Muốn Bên Em Thật Gần",
+      singer: "YLing",
+      path: "./music/chi_muon_ben_em_that_gan.mp3",
+      image: "./pic/benemthatgan.png"
+    },
+    {
       name: "Lucky Twice",
       singer: "Vinz ft. Nam Milano - TheDragonsRemix",
       path: "music/Lucky_Twice.mp3",
@@ -44,18 +50,12 @@ const app = {
       path:"./music/River_Flow_In_You .mp3",
       image: "./pic/river.png",
     },
+     
     {
       name: "Kẻ Theo Đuổi Ánh Sáng",
       singer: "Htrol ft Phạm Thành Remix",
-      path: "./music/Người_Theo_Đuổi_Ánh_Sáng .mp3",
+      path: "./music/Nguoi_Theo_duoi_anh_sang .mp3",
       image:"./pic/ketheoduoianhsang.png",
-    },
-    {
-      name: "♫TOP Nhạc EDM Tik Tok Trung Quốc Remix Gây Nghiện♫",
-      singer: "none",
-      path: "./music/EDM.mp3",
-      image:
-        "./pic/EDMtrung.png"
     },
     {
       name: "Một Bước Yêu Vạn Dặm Đau",
@@ -74,7 +74,19 @@ const app = {
       singer: "Tàn Tuyết",
       path:"./music/bo_thap.mp3",
       image:"./pic/bothapnhapma.png",
-    }
+    },
+     {
+      name:"Nơi Này Có Anh (remix)",
+      singer: "Sơn Tùng MTP",
+      path:"./music/noi_nay_co_anh.mp3",
+      image:"./pic/noi_nay_co_anh.jpg",
+    },
+       {
+      name:"Bánh Mỳ Không",
+      singer: "Du Uyên x Đạt G",
+      path:"./music/banh_my_khong.mp3",
+      image:"./pic/banhmykhong.png",
+    },
   ],
   setConfig: function (key, value) {
     this.config[key] = value;
